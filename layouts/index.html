@@ -18,12 +18,11 @@
   </div>
   <!-- contents -->
   <div id="contentsList">
-    {{ $listPageDateFormat := .Site.Params.listPageDateFormat | default "January, 2006"}}
-    {{ range $index, $value := .Pages.GroupByDate $listPageDateFormat }}
+    {{ range $index, $value := .Site.Taxonomies.categories.ByCount}}
     {{ if (ne $index 0) }}
     <hr class="separator">
     {{ end }}
-    <p class="date">{{ .Key }}</p>
+    <p class="categories">{{ .Page.Title }}</p>
     {{ range .Pages }}
       <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
     {{ end }}
