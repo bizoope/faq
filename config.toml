@@ -27,6 +27,7 @@ hasCJKLanguage = true
 
 # Make sure setting a following option for search bar to work
 [outputs]
+    home = ["JSON","HTML"]
     section = ["JSON", "HTML"]
     term = ["JSON", "HTML"]
 
