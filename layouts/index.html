@@ -31,7 +31,7 @@
     {{ if (ne $index 0) }}
 
     {{ end }}
-    <p>{{ .Page.Title }}</p>
+    <div id="contentsListTitle">{{ .Page.Title }}</div>
     {{ range .Pages }}
       <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
     {{ end }}
