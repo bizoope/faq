@@ -152,7 +152,7 @@ body {
   #tags li a {
     display: block;
     height: 24px;
-    margin: 5px;
+    margin: 10px;
     padding: 0 5px;
     background-color: #dddfdf;
     border-radius: 5px;
@@ -176,3 +176,22 @@ body {
     text-align: left;
   }
   
+  #categories ul {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    flex-wrap: nowrap;
+    list-style: none;
+  }
+  
+  #categories li a {
+    display: block;
+    height: 24px;
+    margin: 10px;
+    padding: 0 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
