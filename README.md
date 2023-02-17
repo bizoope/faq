@@ -18,6 +18,7 @@ hugo server
 サーバ起動後は、localhost:1313で確認
 
 以下のオプションなどもある
+
 ```cmd
 -D ドラフト状態のファイルも出力する
 -F 未来の日付のファイルも出力する
@@ -52,4 +53,4 @@ MITライセンスのもとで配布されているものは、改変でも、�
 
 なので、今回は「license.txt」に記載した。
 
-参考サイト: https://wisdommingle.com/mit-license/
+参考サイト: [MITライセンスってなに？どうやって使うの？商用でも無料で使えるの？](https://wisdommingle.com/mit-license/)
