@@ -1,5 +1,5 @@
 {{ define "main"}}
-  <h1><img src="/img/logo.png" alt="BiZOOPelogo"  width="300" height="50" /></h1>
+  <h1><img src="/img/logo.png" alt="BiZOOPelogo"  height="50" /></h1>
   {{ partial "header.html" . }}
   <!-- search box -->
   <div id="searchBox">
@@ -25,7 +25,7 @@
   <div id="contentsList">
     {{ range $index, $value := .Site.Taxonomies.categories.ByCount}}
     {{ if (ne $index 0) }}
-    <hr class="separator">
+
     {{ end }}
     <p>{{ .Page.Title }}</p>
     {{ range .Pages }}
@@ -40,4 +40,9 @@
   {{ $search := resources.Get "js/search.js" }}
   {{ $js := slice $jquery $mark $lunr $search | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $js.Permalink }}"></script>
+  {{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+  {{- end }}
+  <!--  Custom CSS  -->
+  <link rel="stylesheet" href="{{ "css/custom_main.css" | relURL }}">
 {{ end }}

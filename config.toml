@@ -11,7 +11,8 @@ hasCJKLanguage = true
     unsafe = true # Allow user HTML tags
 
 [params]
-
+    custom_css = ["/css/custom_main.css"]
+    
 [outputs]
     home = ["JSON","HTML"]
     section = ["JSON", "HTML"]
