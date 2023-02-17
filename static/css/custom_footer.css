@@ -1,8 +1,3 @@
-
-html {
-  font-family: sans-serif;
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -21,11 +16,6 @@ html {
 
 .footer_title {
   font-weight: 600;
-}
-
-.footer__logo {
-  display: inline-block;
-  margin-bottom: 2rem;
 }
 
 .footer_navi li {
