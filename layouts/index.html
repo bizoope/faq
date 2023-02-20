@@ -1,5 +1,4 @@
 {{ define "main"}}
-  <h1><img src="/img/logo.png" alt="BiZOOPelogo"  height="50" /></h1>
   {{ partial "header.html" . }}
   <!-- search box -->
   <div id="searchBox">
@@ -47,6 +46,4 @@
   {{ range .Site.Params.custom_css -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
   {{- end }}
-  <!--  Custom CSS  -->
-  <link rel="stylesheet" href="{{ "css/custom_main.css" | relURL }}">
 {{ end }}
