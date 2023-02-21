@@ -12,6 +12,8 @@
   background: #fff;
   border-top: 3px solid #a4a29e;
   margin-top: auto;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer_title {
