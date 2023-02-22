@@ -1,7 +1,7 @@
 ---
 title: "ID-POSとPOSのIDを分けて契約しているのだが、片方のIDでしかログインができない"
 date: 2023-02-22T07:37:57+09:00
-tags: [ ログイン,POS,ID-POS]
+tags: [ ログイン,POS,ID-POS,トラブル]
 categories: [ システム ]
 ---
 

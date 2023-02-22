@@ -1,6 +1,6 @@
 ---
 title: "BiZOOPeにログインできない／画面が開かない"
-tags: [ ログイン,POS,ID-POS]
+tags: [ ログイン,POS,ID-POS,トラブル]
 categories: [ システム ]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "ログインID、パスワードを忘れてしまった"
 date: 2023-02-22T07:48:41+09:00
-tags: [ ログイン,POS,ID-POS]
+tags: [ ログイン,POS,ID-POS,トラブル]
 categories: [ システム ]
 ---
 
