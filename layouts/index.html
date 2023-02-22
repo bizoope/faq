@@ -9,10 +9,9 @@
   <div id="searchResults"></div>
   <!-- categories -->
   <div id="categories">
-    <div>カテゴリー</div>
     <ul>
       {{ range .Site.Taxonomies.categories.ByCount }}
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }} </a></li>
+        <li><a href="#{{ .Page.Title }}">{{ .Page.Title }} </a></li>
       {{ end }}
     </ul>
   </div>
@@ -30,7 +29,7 @@
     {{ if (ne $index 0) }}
 
     {{ end }}
-    <div id="contentsListTitle">{{ .Page.Title }}</div>
+    <div id="{{ .Page.Title }}">{{ .Page.Title }}</div>
     {{ range .Pages }}
       <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
     {{ end }}
