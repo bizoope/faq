@@ -1,11 +1,8 @@
 baseurl = "https://example.com/"
-title = "よくある質問"
+title = "FAQ"
 theme = "pulp"
 canonifyurls = true
 hasCJKLanguage = true
-# pygmentsCodefences = true
-# pygmentsUseClasses = true
-# googleAnalytics = "{your tracking code}"
 
 [markup.goldmark.renderer]
     unsafe = true # Allow user HTML tags
