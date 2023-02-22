@@ -1,8 +1,7 @@
 ---
-title: "１つのＩＤにつき複数の人間が使用できますか？、複数人数使用する場合、手続きが必要になりますでしょうか。"
-tags: [ main ]
-categories: [ 管理者 ]
-draft: true
+title: "BiZOOPeの稼働時間、年末年始や祝日等での稼働休止時間"
+tags: [ 時間,POS,ID-POS]
+categories: [ システム ]
 ---
 
 稼働時間は9：00～22：00になっています。
