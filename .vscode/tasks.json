@@ -1,0 +1,41 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "プレビュー",
+            "type": "shell",
+            "command": "hugo",
+            "args": [
+                "server"
+            ]
+        },
+        {
+            "label": "新しい回答を作成",
+            "type": "shell",
+            "command": "hugo",
+            "args": [
+                "new",
+                "${input:category}/${input:title}.md"
+            ]
+        }
+    ],
+    "inputs": [
+        {
+            "id": "category",
+            "type": "pickString",
+            "description": "カテゴリーを選択してください",
+            "options": [
+                "管理",
+                "システム",
+                "分析",
+            ]
+        },
+        {
+            "id": "title",
+            "type": "promptString",
+            "description": "タイトルを入力してください",
+        }
+    ]
+}
