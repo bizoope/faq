@@ -6,10 +6,6 @@ hasCJKLanguage = true
 
 [markup.goldmark.renderer]
     unsafe = true # Allow user HTML tags
-
-[params]
-    custom_css = ["/css/custom_main.css"]
-    footer_css = ["/css/custom_footer.css"]
     
 [outputs]
     home = ["JSON","HTML"]
