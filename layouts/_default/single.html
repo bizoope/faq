@@ -1,4 +1,5 @@
 {{ define "main"}}
+  {{ partial "header.html" . }}
   <h1>{{ .Title }}</h1>
   {{ if not .Date.IsZero }}
   {{ end }}
@@ -20,4 +21,8 @@
     {{ .Content }}
   </div>
   {{ partial "footer.html" . }}
+  {{ $style := resources.Get "sass/variables.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}"> 
+  {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}"> 
 {{ end }}

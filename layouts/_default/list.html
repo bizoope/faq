@@ -43,4 +43,8 @@
   {{ $search := resources.Get "js/search.js" }}
   {{ $js := slice $jquery $mark $lunr $search | resources.Concat "bundle.js" | resources.Minify | resources.Fingerprint }}
   <script src="{{ $js.Permalink }}"></script>
+  {{ $style := resources.Get "sass/variables.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}"> 
+  {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}"> 
 {{ end }}
