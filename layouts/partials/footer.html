@@ -13,6 +13,7 @@
 {{- range .Site.Params.custom_js -}}
 <script src="{{ . }}"></script>
 {{- end }}
-{{ range .Site.Params.footer_css -}}
-    <link rel="stylesheet" href="{{ . | absURL }}">
-{{- end }}
+{{ $style := resources.Get "sass/variables.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}"> 
+{{ $style := resources.Get "sass/footer.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}"> 
