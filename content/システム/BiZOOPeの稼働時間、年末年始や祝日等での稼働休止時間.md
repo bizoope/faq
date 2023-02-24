@@ -1,7 +1,7 @@
 ---
 title: "BiZOOPeの稼働時間、年末年始や祝日等での稼働休止時間"
-tags: [ 時間,POS,ID-POS]
 categories: [ システム ]
+tags: [ 時間,POS,ID-POS]
 ---
 
 稼働時間は9：00～22：00になっています。

@@ -1,7 +1,7 @@
 ---
 title: "DuckでExcelをダウンロードすると、商品名が文字化けする"
-tags: [POS,duck,トラブル]
 categories: [ 分析 ]
+tags: [POS,duck,トラブル]
 ---
 
 デフォルトで文字コードセットが「UTF-8」となっております。

@@ -1,7 +1,7 @@
 ---
 title: "BiZOOPeにログインできない／画面が開かない"
-tags: [ ログイン,POS,ID-POS,トラブル]
 categories: [ システム ]
+tags: [ ログイン,POS,ID-POS,トラブル]
 ---
 
 1. 接続先のURLはあっていますでしょうか？、BIZOOPe URL：https://okuwa.bizoo.cloud/portal/
