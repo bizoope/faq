@@ -1,7 +1,7 @@
 ---
 title: "{{ .Name }}"
 date: {{ .Date }}
-categories: [""]
+categories: ["{{ path.Dir .Path }}"]
 tags: ["","",""]
 ---
 
