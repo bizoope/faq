@@ -1,6 +1,6 @@
 ---
 title: "BiZOOPeの稼働時間、年末年始や祝日等での稼働休止時間"
-categories: [ システム ]
+categories: [ その他 ]
 tags: [ 時間,POS,ID-POS]
 ---
 
