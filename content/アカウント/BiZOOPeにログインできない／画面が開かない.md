@@ -4,8 +4,8 @@ categories: [ アカウント ]
 tags: [ ログイン,ID,トラブル]
 ---
 
-1. 接続先のURLはあっていますでしょうか？、BIZOOPe URL：https://okuwa.bizoo.cloud/portal/
+### 下記項目の確認をお願いします
 
-2. ブラウザにIE（Internet Explorer）をお使いではありませんか？、BiZOOPeが動作するのはChrome（推奨）、Edge（Chromium版）等のオープンソースブラウザです。
-
-3. ポップアップブロックがかかっていないかご確認の上、ポップアップブロックの解除をお願いします。
+* 接続先のURLが間違っていないかご確認ください。
+* ブラウザにIE（Internet Explorer）をお使いではありませんか？、BiZOOPeが動作するのはChrome（推奨）、Edge（Chromium版）等のオープンソースブラウザです。
+* ポップアップブロックがかかっていないかご確認の上、ポップアップブロックの解除をお願いします。
