@@ -1,6 +1,9 @@
 body {
     background-color: #ffffff;
     color: #010101;
+    min-height: 100vh;
+    position: relative;
+    padding: 50px 0 100px 0;
 }
 
 a {
@@ -42,8 +45,7 @@ a {
 
 #contentsList {
     max-width: var(--wide-large);
-    margin: 0 auto;
-    padding: 20px 0 300px 0;
+    margin: auto;
     text-align: left;
 }
 
