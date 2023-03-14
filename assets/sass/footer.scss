@@ -3,13 +3,13 @@
     font-size: 15px;
     background: #ffffff;
     border-top: 3px solid #a4a29e;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0px;
     left: calc(50% - 1000px/2);
-    height: 100px;
+    height: 50px;
     text-align: center;
     display: flex;
-    padding: 0 0 30px 0;
+    padding: 20px 0 100px 0;
 }
 
 .footer_logo {
@@ -25,6 +25,18 @@
 .footer_title {
     text-align: center;
     font-weight: var(--wide-large);
+    width: 10%;
+    height: 100px;
+}
+
+.footer_title:active {
+    width: 10%;
+    height: 100px;
+    background-image: url(/img/cala.png);
+    background-size:contain; 
+    background-position: 0px 100px;                        
+    width:auto;                                   
+    height:1000px;  
 }
 
 .footer_navi {
