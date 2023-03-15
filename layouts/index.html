@@ -11,7 +11,7 @@
   <!-- categories -->
   <div id="categories">
     <ul>
-      {{ range .Site.Taxonomies.categories.ByCount }}
+      {{ range .Site.Taxonomies.categories.Alphabetical }}
         <li><a href="#{{ .Page.Title }}">{{ .Page.Title }} </a></li>
       {{ end }}
     </ul>
@@ -26,7 +26,7 @@
   </div>
   <!-- contents -->
   <div id="contentsList">
-    {{ range $index, $value := .Site.Taxonomies.categories.ByCount}}
+    {{ range $index, $value := .Site.Taxonomies.categories.Alphabetical}}
     {{ if (ne $index 0) }}
 
     {{ end }}
