@@ -1,6 +1,6 @@
 ---
 title: "Duckでファイルをダウンロードすると、商品名が文字化けする"
-categories: [ 分析 ]
+categories: [ POS分析 ]
 tags: [POS,duck,トラブル]
 ---
 

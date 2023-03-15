@@ -1,7 +1,7 @@
 ---
 title: "POS分析で当年と前年のデータを抽出したい"
 date: 2020-11-07T10:33:02+09:00
-categories: [ 分析 ]
+categories: [ POS分析 ]
 tags: [ POS ]
 ---
 
