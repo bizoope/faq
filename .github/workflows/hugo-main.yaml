@@ -3,7 +3,7 @@ name: main hugo
 on:
   push:
     branches:
-      - main
+      - release
 
 jobs:
   deploy:
