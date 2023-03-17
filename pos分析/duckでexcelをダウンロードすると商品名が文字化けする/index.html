@@ -1,2 +1,120 @@
-<!doctype html><html><head><title>Duckでファイルをダウンロードすると、商品名が文字化けする - FAQ</title><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content><link rel="shortcut icon" type=image/x-icon href=https://bizoope.com/img/><link rel=stylesheet href=https://bizoope.com/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css integrity="sha256-OaysxdIFFCb2Vaa3+/R4b70P2P/9CTIsm0l+8PdDmz8="><link rel=stylesheet href=https://bizoope.com/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB+BLd7VPoFFdCmg9OezbJR26lg/h+Wb3/zb8I="><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.15.1/css/all.css><meta property="og:title" content="Duckでファイルをダウンロードすると、商品名が文字化けする"><meta property="og:description" content="デフォルトでは文字コードセットが「UTF-8」となっております 文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをEx"><meta property="og:type" content="article"><meta property="og:url" content="https://bizoope.com/pos%E5%88%86%E6%9E%90/duck%E3%81%A7excel%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B%E3%81%A8%E5%95%86%E5%93%81%E5%90%8D%E3%81%8C%E6%96%87%E5%AD%97%E5%8C%96%E3%81%91%E3%81%99%E3%82%8B/"><meta property="article:section" content="POS分析"><meta itemprop=name content="Duckでファイルをダウンロードすると、商品名が文字化けする"><meta itemprop=description content="デフォルトでは文字コードセットが「UTF-8」となっております 文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをEx"><meta itemprop=wordCount content="148"><meta itemprop=keywords content="POS,duck,トラブル,"><meta name=twitter:card content="summary"><meta name=twitter:image content="https://bizoope.com//img/"><meta name=twitter:title content="Duckでファイルをダウンロードすると、商品名が文字化けする"><meta name=twitter:description content="デフォルトでは文字コードセットが「UTF-8」となっております 文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをEx"><!--[if lte IE 9]><script src=https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js></script><![endif]--><!--[if lt IE 9]><script src=https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js></script>
-<script src=https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js></script><![endif]--></head><body><header><h1><a href=https://bizoope.com/><img src=https://bizoope.com/img/logo.png alt=BiZOOPelogo height=50></a></h1></header><h1>Duckでファイルをダウンロードすると、商品名が文字化けする</h1><div id=tags><ul><li><a href=https://bizoope.com/tags/pos/>POS</a></li><li><a href=https://bizoope.com/tags/duck/>duck</a></li></ul></div><div id=contentBody><h3 id=デフォルトでは文字コードセットがutf-8となっております>デフォルトでは文字コードセットが「UTF-8」となっております</h3><ul><li>文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをExcelで開きますと、文字化けが起きます。</li><li>Excelで開く場合は、Duckの分析条件設定画面の下部にあります文字コードを「Shift-JIS」をご指定下さい。</li></ul></div><footer class=footer><div class=footer_logo><img src=https://bizoope.com/img/logo.png alt=BiZOOPelogo width=140 height=20></div><div class=topimage></div><div class=footer_list><a class=footer_title>SERVICE</a><ul class=footer_navi><li><a href=https://www.bizoo.cloud/>BiZOOPe紹介サイト</a></li><li><a href=https://bizoope.github.io/bizoope-manual/>BiZOOPeマニュアル</a></li></ul></div></footer><link rel=stylesheet href=https://bizoope.com/sass/variables.min.fceea6a6a211ea62fa69b5dabd4aa475690710a876fd3a1290cc62079f6bd465.css><link rel=stylesheet href=https://bizoope.com/sass/footer.min.1a6d66283315e2088e9ebff86e46958f48e7df4b0c68e713279a97cc7d09019d.css><link rel=stylesheet href=https://bizoope.com/sass/variables.min.fceea6a6a211ea62fa69b5dabd4aa475690710a876fd3a1290cc62079f6bd465.css><link rel=stylesheet href=https://bizoope.com/sass/main.min.48f37b822c42f04d065ae181d46cc0cec20dd8c44138bfb060c491ee22a0c969.css></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>
+      
+          Duckでファイルをダウンロードすると、商品名が文字化けする - FAQ
+      
+  </title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://bizoope.github.io/faq/img/">
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="https://bizoope.github.io/faq/style.min.39acacc5d2051426f655a6b7fbf4786fbd0fd8fffd09322c9b497ef0f7439b3f.css" integrity="sha256-OaysxdIFFCb2Vaa3&#43;/R4b70P2P/9CTIsm0l&#43;8PdDmz8=">
+  
+  
+  
+  <link rel="stylesheet" href="https://bizoope.github.io/faq/style-dark.min.0a647fb6c07e04b77b54fa0515d0a683d39ecdb251dba960fe1f966f7ff36fc2.css" media="(prefers-color-scheme: dark)" integrity="sha256-CmR/tsB&#43;BLd7VPoFFdCmg9OezbJR26lg/h&#43;Wb3/zb8I=">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+  
+  
+
+  <meta property="og:title" content="Duckでファイルをダウンロードすると、商品名が文字化けする" />
+<meta property="og:description" content="デフォルトでは文字コードセットが「UTF-8」となっております 文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをEx" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bizoope.github.io/faq/pos%E5%88%86%E6%9E%90/duck%E3%81%A7excel%E3%82%92%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%99%E3%82%8B%E3%81%A8%E5%95%86%E5%93%81%E5%90%8D%E3%81%8C%E6%96%87%E5%AD%97%E5%8C%96%E3%81%91%E3%81%99%E3%82%8B/" /><meta property="article:section" content="POS分析" />
+
+
+<meta itemprop="name" content="Duckでファイルをダウンロードすると、商品名が文字化けする">
+<meta itemprop="description" content="デフォルトでは文字コードセットが「UTF-8」となっております 文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをEx">
+
+<meta itemprop="wordCount" content="148">
+<meta itemprop="keywords" content="POS,duck,トラブル," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="https://bizoope.github.io/faq//img/"/>
+<meta name="twitter:title" content="Duckでファイルをダウンロードすると、商品名が文字化けする"/>
+<meta name="twitter:description" content="デフォルトでは文字コードセットが「UTF-8」となっております 文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをEx"/>
+
+  <!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+
+  
+  
+</head>
+
+  <body>
+    
+  <header>
+  <h1><a href="https://bizoope.github.io/faq/"><img src="https://bizoope.github.io/faq/img/logo.png" alt="BiZOOPelogo"  height="50" /></a></h1>
+</header>
+  <h1>Duckでファイルをダウンロードすると、商品名が文字化けする</h1>
+  
+  
+  
+  <div id="tags">
+    <ul>
+      
+        
+        
+          <li><a href="https://bizoope.github.io/faq/tags/pos/">POS</a></li>
+        
+      
+        
+        
+          <li><a href="https://bizoope.github.io/faq/tags/duck/">duck</a></li>
+        
+      
+        
+        
+      
+    </ul>
+  </div>
+  
+  
+  <div id="contentBody">
+    <h3 id="デフォルトでは文字コードセットがutf-8となっております">デフォルトでは文字コードセットが「UTF-8」となっております</h3>
+<ul>
+<li>文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをExcelで開きますと、文字化けが起きます。</li>
+<li>Excelで開く場合は、Duckの分析条件設定画面の下部にあります文字コードを「Shift-JIS」をご指定下さい。</li>
+</ul>
+
+  </div>
+  <footer class="footer">
+  <div class="footer_logo">
+    <img src="https://bizoope.github.io/faq/img/logo.png" alt="BiZOOPelogo" width="140" height="20" />
+  </div>
+  <div class="topimage">
+  </div>
+  <div class="footer_list">
+    <a class="footer_title">SERVICE</a>
+    <ul class="footer_navi">
+      <li><a href="https://www.bizoo.cloud/">BiZOOPe紹介サイト</a></li>
+      <li><a href="https://bizoope.github.io/bizoope-manual/">BiZOOPeマニュアル</a></li>
+    </ul>
+  </div>
+</footer>
+
+<link rel="stylesheet" href="https://bizoope.github.io/faq/sass/variables.min.fceea6a6a211ea62fa69b5dabd4aa475690710a876fd3a1290cc62079f6bd465.css"> 
+
+<link rel="stylesheet" href="https://bizoope.github.io/faq/sass/footer.min.1a6d66283315e2088e9ebff86e46958f48e7df4b0c68e713279a97cc7d09019d.css"> 
+
+  
+  <link rel="stylesheet" href="https://bizoope.github.io/faq/sass/variables.min.fceea6a6a211ea62fa69b5dabd4aa475690710a876fd3a1290cc62079f6bd465.css"> 
+  
+  <link rel="stylesheet" href="https://bizoope.github.io/faq/sass/main.min.48f37b822c42f04d065ae181d46cc0cec20dd8c44138bfb060c491ee22a0c969.css"> 
+
+  </body>
+</html>
