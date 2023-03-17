@@ -1,6 +1,6 @@
 ---
 title: "BiZOOPeの稼働時間"
-categories: [ その他 ]
+categories: [ サービス全般 ]
 tags: [ 時間,POS,ID-POS]
 ---
 
