@@ -16,7 +16,7 @@ hasCJKLanguage = true
     categories = [
         "アカウント",
         "管理者",
-        "その他",
+        "サービス全般",
         "ID-POS分析",
         "POS分析",
     ]
