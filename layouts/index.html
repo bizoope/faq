@@ -11,8 +11,10 @@
   <!-- categories -->
   <div id="categories">
     <ul>
-      {{ range .Site.Taxonomies.categories.Alphabetical }}
-        <li><a href="#{{ .Page.Title }}">{{ .Page.Title }} </a></li>
+      {{ $categories := .Site.Taxonomies.categories }}
+      {{ range $category := .Site.Params.categories }}
+        {{ $value := index $categories (lower $category)}}
+        <li><a href="#{{ $category }}">{{ $category }} </a></li>
       {{ end }}
     </ul>
   </div>
@@ -26,14 +28,15 @@
   </div>
   <!-- contents -->
   <div id="contentsList">
-    {{ range $index, $value := .Site.Taxonomies.categories.Alphabetical}}
-    {{ if (ne $index 0) }}
+    {{ $categories := .Site.Taxonomies.categories }}
 
-    {{ end }}
-    <div id="{{ .Page.Title }}">{{ .Page.Title }}</div>
-    {{ range .Pages }}
-      <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
-    {{ end }}
+    {{ range $category := .Site.Params.categories }}
+      {{ $value := index $categories (lower $category)}}
+
+      <div id="{{ $category }}">{{ $category }}</div>
+      {{ range $value.Pages }}
+        <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+      {{ end }}
     {{ end }}
   </div>
   {{ partial "footer.html" . }}

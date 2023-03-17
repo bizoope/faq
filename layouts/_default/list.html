@@ -10,8 +10,10 @@
   <div id="searchResults"></div>
   <div id="categories">
     <ul>
-      {{ range .Site.Taxonomies.categories.ByCount }}
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+      {{ $categories := .Site.Taxonomies.categories }}
+      {{ range $category := .Site.Params.categories }}
+        {{ $value := index $categories (lower $category)}}
+        <li><a href="#{{ $category }}">{{ $category }} </a></li>
       {{ end }}
     </ul>
   </div>

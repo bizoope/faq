@@ -11,3 +11,12 @@ hasCJKLanguage = true
     home = ["JSON","HTML"]
     section = ["JSON", "HTML"]
     term = ["JSON", "HTML"]
+
+[params]
+    categories = [
+        "アカウント",
+        "管理者",
+        "その他",
+        "ID-POS分析",
+        "POS分析",
+    ]
