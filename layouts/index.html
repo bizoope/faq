@@ -33,9 +33,9 @@
     {{ range $category := .Site.Params.categories }}
       {{ $value := index $categories (lower $category)}}
 
-      <div id="{{ $category }}">{{ $category }}</div>
+      <div id="{{ $category }}" style="font-size:20px">{{ $category }}</div>
       {{ range $value.Pages }}
-        <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+        <p><a href="{{ .Permalink }}">・{{ .Title }}</a></p>
       {{ end }}
     {{ end }}
   </div>
