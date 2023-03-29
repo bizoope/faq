@@ -3,7 +3,7 @@
   <!-- search box -->
   <h1>{{ .Title }}</h1>
   <div id="searchBox">
-    <input type="text" id="searchBoxInput" placeholder="Search..." />
+    <input type="text" id="searchBoxInput" placeholder="ここに知りたい内容を入力してください" />
     <img id="searchBoxIcon" src="{{ .Site.BaseURL }}/img/search.png" />
   </div>
   <!-- search results -->
@@ -33,9 +33,9 @@
     {{ range $category := .Site.Params.categories }}
       {{ $value := index $categories (lower $category)}}
 
-      <div id="{{ $category }}">{{ $category }}</div>
+      <div id="{{ $category }}" style="font-size:20px">{{ $category }}</div>
       {{ range $value.Pages }}
-        <p><a href="{{ .Permalink }}">{{ .Title }}</a></p>
+        <p><a href="{{ .Permalink }}">・{{ .Title }}</a></p>
       {{ end }}
     {{ end }}
   </div>
