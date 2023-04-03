@@ -8,3 +8,5 @@ tags: [POS,duck,トラブル]
 
 * 文字コードセットが、デフォルトの「UTF-8」でダウンロードしたファイルをExcelで開きますと、文字化けが起きます。
 * Excelで開く場合は、Duckの分析条件設定画面の下部にあります文字コードを「Shift-JIS」をご指定下さい。
+
+  マニュアル参考ページ：[Duckの操作方法](https://bizoope.github.io/bizoope-manual/duck.html)
