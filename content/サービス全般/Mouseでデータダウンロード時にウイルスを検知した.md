@@ -2,7 +2,7 @@
 title: "Mouseでデータダウンロード時にウイルスを検知した"
 date: 2024-03-22T17:58:33+09:00
 categories: [サービス全般]
-tags: [POS,ID-POS]
+tags: [POS,ID-POS,トラブル]
 ---
 
 ### 「Microsoft Defender」のウイルス対策を一時的にオフにしてダウンロードをお願いいたします
