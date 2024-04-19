@@ -5,7 +5,16 @@
     <link>https://bizoope.github.io/faq/categories/</link>
     <description>Recent content in Categories on FAQ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 16 Apr 2024 13:34:12 +0900</lastBuildDate><atom:link href="https://bizoope.github.io/faq/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 09:08:54 +0900</lastBuildDate><atom:link href="https://bizoope.github.io/faq/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>POS分析</title>
+      <link>https://bizoope.github.io/faq/categories/pos%E5%88%86%E6%9E%90/index.json</link>
+      <pubDate>Fri, 19 Apr 2024 09:08:54 +0900</pubDate>
+      
+      <guid>https://bizoope.github.io/faq/categories/pos%E5%88%86%E6%9E%90/index.json</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>管理者</title>
       <link>https://bizoope.github.io/faq/categories/%E7%AE%A1%E7%90%86%E8%80%85/index.json</link>
@@ -39,15 +48,6 @@
       <pubDate>Wed, 18 Oct 2023 10:01:27 +0900</pubDate>
       
       <guid>https://bizoope.github.io/faq/categories/id-pos%E5%88%86%E6%9E%90/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>POS分析</title>
-      <link>https://bizoope.github.io/faq/categories/pos%E5%88%86%E6%9E%90/index.json</link>
-      <pubDate>Sat, 07 Nov 2020 10:33:02 +0900</pubDate>
-      
-      <guid>https://bizoope.github.io/faq/categories/pos%E5%88%86%E6%9E%90/index.json</guid>
       <description></description>
     </item>
     
