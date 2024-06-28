@@ -5,11 +5,20 @@
     <link>https://bizoope.github.io/faq/tags/</link>
     <description>Recent content in Tags on FAQ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 May 2024 16:55:10 +0900</lastBuildDate><atom:link href="https://bizoope.github.io/faq/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jun 2024 16:43:04 +0900</lastBuildDate><atom:link href="https://bizoope.github.io/faq/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ID-POS</title>
+      <link>https://bizoope.github.io/faq/tags/id-pos/index.json</link>
+      <pubDate>Fri, 28 Jun 2024 16:43:04 +0900</pubDate>
+      
+      <guid>https://bizoope.github.io/faq/tags/id-pos/index.json</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>POS</title>
       <link>https://bizoope.github.io/faq/tags/pos/index.json</link>
-      <pubDate>Thu, 30 May 2024 16:55:10 +0900</pubDate>
+      <pubDate>Fri, 28 Jun 2024 16:43:04 +0900</pubDate>
       
       <guid>https://bizoope.github.io/faq/tags/pos/index.json</guid>
       <description></description>
@@ -30,15 +39,6 @@
       <pubDate>Fri, 05 Apr 2024 10:44:20 +0900</pubDate>
       
       <guid>https://bizoope.github.io/faq/tags/%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ID-POS</title>
-      <link>https://bizoope.github.io/faq/tags/id-pos/index.json</link>
-      <pubDate>Tue, 26 Mar 2024 17:20:03 +0900</pubDate>
-      
-      <guid>https://bizoope.github.io/faq/tags/id-pos/index.json</guid>
       <description></description>
     </item>
     
